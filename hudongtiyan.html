@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hudongtiyan.html</title>
+    <link type="text/css" rel="stylesheet" href="tiyan.css">
+    <!--样式设置-->
+    <style>
+        script {
+            color: rgb(140, 15, 15);
+        }
+    </style>
+    <!--时钟显示-->
+    <script>
+        function showTime() {
+            var time = new Date();
+            var day = time.getDay();
+            var date = time.getDate();
+            var year = time.getFullYear();
+            var month = time.getMonth() + 1;
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+            var day1 = day.toString();
+            var nianyue = year + "年" + "&nbsp" + month + "月";
+            var mytime = hour + ":" + minute + ":" + second;
+            // document.getElementById("xinqi").innerHTML = day1;
+            document.getElementById("ri").innerHTML = date;
+            document.getElementById("nianyue").innerHTML = nianyue;
+            document.getElementById("tt").innerHTML = mytime;
+            setTimeout("showTime()", 1000);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <!--头部-->
+        <img id="hi1" src="jingtailan08.jpg">
+    </div>
+
+    <div class="dh">
+        <!--导航栏 -->
+        <ul>
+            <li>
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="lishiyange.html">历史沿革</a>
+            </li>
+            <li>
+                <a href="zhizuogongyi.html">制作工艺</a>
+            </li>
+            <li>
+                <a href="jingdianzuopin.html">经典作品</a>
+            </li>
+            <li>
+                <a href="hudongtiyan.html">互动体验</a>
+            </li>
+            <li>
+                <a href="zaixiandiaocha.html">在线调查</a>
+            </li>
+        </ul>
+    </div>
+    <!--主体-->
+    <div id="zhuti">
+        <div id="left">
+            <!--主体左边-->
+            <table border="1">
+                <tr>
+                    <th>
+                        <div id="geqian"><!--个签-->
+                            <h2>
+                                <pre> 彩釉金丝，新起之蓝</pre>
+                            </h2>
+                        </div>
+                        <div id="shijian"><!--时间-->
+                            <div id="ri"> 24</div>
+                            <div id="nianyue">二0二二年五月</div>
+                            <div id="tt">20:57</div>
+                            <script>
+                                showTime();
+                            </script>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div id="xinxi"><!--信息-->
+                            <br>
+                            <br>
+                            <br>
+
+                            <p>学院：</p>
+                            <p>专业：</p>
+                            <p>班级：</p>
+                            <P>学号：</P>
+                            <p>联系方式：<br>邮箱：</p>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div id="right"><!--右边-->
+            <div id="zhan1"><!--标题-->
+                <h1>体验说明</h1>
+            </div>
+            <div id="zhan2"><!--内容-->
+                <ul>
+                    <li>AR技术</li>
+                    <li></li>
+                    <li></li>
+                    <li id="qita">其他：......</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div id="" class="footer">
+        <!--页尾-->
+        <img id="fi1" src="jingtailan01.jpg">
+        <p>
+            彩釉金丝，新起之蓝
+        </p>
+        <p>
+            welcome ！
+        </p>
+    </div>
+</body>
+
+</html>
