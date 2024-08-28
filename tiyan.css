@@ -103,9 +103,9 @@ body {
 
 #geqian h2 {
   /*个签*/
-  margin: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 10px;
-  height: 100px;
+  height: 325px;
 }
 
 #right {
@@ -123,37 +123,40 @@ body {
   /*弧度设置*/
 }
 
+#geqian img {
+  /*左边图片设置*/
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+}
+
 #shijian {
   /*时间*/
   text-align: center; /*文本居中*/
-  margin: 90px 0px 0px 0px;
-  height: 150px;
+  margin: 10px 0px 0px 0px;
+  height: 230px;
 }
 
 #ri {
   /*日*/
-  font-size: 45px;
-  margin: 0px 0px 5px 0px;
+  font-size: 40px;
+  margin: 0px 0px 0px 0px;
 }
 
 #nianyue {
   /*年月*/
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #tt {
   /*几点*/
   margin-top: 5px;
+  font-size: 25px;
 }
 
 table {
   /*表格*/
   border-color: rgb(64, 151, 120);
-}
-
-#xinxi {
-  /*信息*/
-  height: 200px;
 }
 
 #zhan1 {
@@ -169,33 +172,10 @@ table {
   margin: 40px 10px 0px 70px;
 }
 
-#zhan2 ul li {
-  /*右边列表设置*/
-  height: 30px;
-  font: 0.9em;
-}
-
-#tuijian {
-  /*推荐设置*/
-  margin: 10px 0px 0px 30px;
-}
-
-#shu {
-  /*书设置*/
-  margin-left: 30px;
-}
-
-#zong {
-  /*综艺设置*/
-  margin-top: 80px;
-}
-
-#zongyi {
-  /*综艺设置*/
-  margin: 10px 0px 0px 30px;
-}
-
-#qita {
-  /*其他*/
-  margin-top: 250px;
+#zhan2 img {
+  /*右边图片设置*/
+  padding: 2px;
+  width: 230px;
+  height: 190px;
+  margin: 0px 0px 0px 78px;
 }
